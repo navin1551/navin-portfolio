@@ -26,6 +26,12 @@ export default function Project(props) {
         <p>Description: {props.description}</p>
         <br />
         <p> Technologies Implemented: {props.tech}</p>
+        <br />
+        <p>{props.client}</p>
+        <br />
+        <p>{props.api}</p>
+        <br />
+        <p>{props.app}</p>
       </div>
     </li>
   );

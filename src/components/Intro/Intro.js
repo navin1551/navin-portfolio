@@ -4,7 +4,7 @@ import "./Intro.css";
 export default function Intro() {
   return (
     <section>
-      <header class="headline" role="banner">
+      <header className="headline" role="banner">
         <h1>Hi, I'm Navin. I'm a fullstack developer based in Los Angeles</h1>
       </header>
       <section id="bio-section" role="region">

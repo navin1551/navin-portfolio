@@ -21,7 +21,10 @@ export default {
       tech: "JavaScript, jQuery, HTML5, CSS3, GitHub",
       img1: SteelersOpeningPage,
       img2: SteelersQuestions,
-      img3: SteelersBigBen
+      img3: SteelersBigBen,
+      clientRepo: "https://github.com/navin1551/steelers-quiz-app",
+      apiRepo: "",
+      app: "https://navin1551.github.io/steelers-quiz-app/"
     },
 
     {
@@ -32,7 +35,10 @@ export default {
       tech: "JavaScript, jQuery, AJAX, HTML5, CSS3, GitHub",
       img1: EducatorHomePage,
       img2: EducatorLevel,
-      img3: EducatorResults
+      img3: EducatorResults,
+      clientRepo: "https://github.com/navin1551/Educator-Locator",
+      apiRepo: "",
+      app: "https://navin1551.github.io/Educator-Locator/"
     },
 
     {
@@ -44,7 +50,10 @@ export default {
         "React, Node/Express, PostgreSQL, HTML5, CSS3,Jest, Mocha/Chai testing, JWT auth, Zeit, Heroku, GitHub",
       img1: DoggyLandingPage,
       img2: DoggyNewPost,
-      img3: DoggyPost
+      img3: DoggyPost,
+      clientRepo: "https://github.com/navin1551/doggy-dialogue-app",
+      apiRepo: "https://github.com/navin1551/doggy-dialogue-server",
+      app: "https://doggy-dialogue-app.now.sh/"
     },
 
     {
@@ -65,7 +74,10 @@ export default {
         "React, Node/Express, PostgreSQL, AJAX, HTML5, CSS3,Jest, Mocha/Chai testing, JWT auth, Zeit, Heroku, GitHub",
       img1: CocktailLandingPage,
       img2: CocktailReviews,
-      img3: CocktailSearch
+      img3: CocktailSearch,
+      clientRepo: "https://github.com/navin1551/cocktail-critic",
+      apiRepo: "https://github.com/navin1551/cocktail-critic-api",
+      app: "https://cocktail-critic.now.sh/"
     }
   ]
 };
