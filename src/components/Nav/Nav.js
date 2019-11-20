@@ -7,7 +7,7 @@ export default function Nav() {
       <label htmlFor="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
       <nav className="nav-bar">
-        <a href="#bio-section">About Me</a>
+        <a href="#intro-section">About Me</a>
         <a href="#portfolio-section">Projects</a>
         <a href="#contact-section">Contact Information</a>
       </nav>
