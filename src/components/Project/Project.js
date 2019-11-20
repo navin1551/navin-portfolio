@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.css";
 
 export default function Project(props) {
   return (
-    <li className="image-area">
+    <div className="image-area">
       <Carousel dynamicHeight>
         <div>
           <img src={props.img1} className="thumbnail-pic" />
@@ -20,25 +20,31 @@ export default function Project(props) {
           <img src={props.img3} className="thumbnail-pic" />
         </div>
       </Carousel>
-      <div className="project-info">
-        <p>Title: {props.title}</p>
+      <ul className="project-info">
+        <li>Title: {props.title}</li>
         <br />
-        <p>Description: {props.description}</p>
+        <li>Description: {props.description}</li>
         <br />
-        <p> Technologies Implemented: {props.tech}</p>
+        <li> Technologies Implemented: {props.tech}</li>
         <br />
-        <a href={props.client} target="_blank">
-          Client Repo
-        </a>
+        <li>
+          <a href={props.client} target="_blank">
+            Client Repo
+          </a>
+        </li>
         <br />
-        <a href={props.api} target="_blank">
-          API Repo
-        </a>
+        <li>
+          <a href={props.api} target="_blank">
+            API Repo
+          </a>
+        </li>
         <br />
-        <a href={props.app} target="_blank">
-          Try App Here
-        </a>
-      </div>
-    </li>
+        <li>
+          <a href={props.app} target="_blank">
+            Try App Here
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 }

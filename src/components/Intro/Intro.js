@@ -15,7 +15,7 @@ export default function Intro() {
           end and back end development using React.js, Node.js, Express.js and
           PostgreSQL as well as testing frameworks such as Mocha and Chai.
         </p>
-
+        <br />
         <p>
           My interests outside of coding include fitness, sports, reading about
           new advances in artificial intelligence, and enjoying the beautiful

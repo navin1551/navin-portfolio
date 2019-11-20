@@ -20,7 +20,7 @@ export default function MyProjects(props) {
   return (
     <section className="my-projects-section">
       <h2 className="projects-title">Projects</h2>
-      <ul>{myProjects}</ul>
+      <div>{myProjects}</div>
     </section>
   );
 }
