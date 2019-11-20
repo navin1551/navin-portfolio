@@ -5,6 +5,7 @@
   z-index: 10;
   text-align: right;
   opacity: 0.7;
+  display: fixed;
 }
 
 .nav-bar {
@@ -19,7 +20,7 @@
   color: lightblue;
 }
 
-.menu a:hover {
+.nav-bar a:hover {
   color: yellow;
   opacity: 0.8;
 }
@@ -36,4 +37,26 @@ label {
   margin: 0 5px 0 0;
   font-size: 26px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  #toggle,
+  label {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .nav-bar a {
+    display: inline;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: lightblue;
+    padding-top: 20px;
+  }
 }

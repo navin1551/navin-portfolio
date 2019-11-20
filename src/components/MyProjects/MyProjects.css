@@ -8,3 +8,22 @@
   border-top: none;
   font-family: "KoHo", sans-serif;
 }
+
+@media screen and (min-width: 768px) {
+  .my-projects-section {
+    margin-top: 300px;
+  }
+  .projects-title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-title {
+    font-size: 48px;
+  }
+
+  .my-projects-section {
+    margin-top: 400px;
+  }
+}

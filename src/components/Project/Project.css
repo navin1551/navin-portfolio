@@ -32,3 +32,41 @@ a {
   color: lightblue;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+  .image-area {
+    width: 600px;
+  }
+
+  .carousel.carousel-slider {
+    height: 450px;
+  }
+
+  .carousel .slide img {
+    height: 450px;
+  }
+
+  .project-info {
+    line-height: 25px;
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-area {
+    width: 750px;
+  }
+
+  .carousel.carousel-slider {
+    height: 500px;
+  }
+
+  .carousel .slide img {
+    height: 500px;
+  }
+
+  .project-info {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
