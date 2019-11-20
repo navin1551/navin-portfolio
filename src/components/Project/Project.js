@@ -20,18 +20,24 @@ export default function Project(props) {
           <img src={props.img3} className="thumbnail-pic" />
         </div>
       </Carousel>
-      <div>
+      <div className="project-info">
         <p>Title: {props.title}</p>
         <br />
         <p>Description: {props.description}</p>
         <br />
         <p> Technologies Implemented: {props.tech}</p>
         <br />
-        <p>{props.client}</p>
+        <a href={props.client} target="_blank">
+          Client Repo
+        </a>
         <br />
-        <p>{props.api}</p>
+        <a href={props.api} target="_blank">
+          API Repo
+        </a>
         <br />
-        <p>{props.app}</p>
+        <a href={props.app} target="_blank">
+          Try App Here
+        </a>
       </div>
     </li>
   );

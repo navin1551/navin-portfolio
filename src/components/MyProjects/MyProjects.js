@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../Project/Project";
+import "./MyProjects.css";
 
 export default function MyProjects(props) {
   let myProjects = props.projects.map(project => (
@@ -17,8 +18,8 @@ export default function MyProjects(props) {
     />
   ));
   return (
-    <section>
-      <h2>Projects</h2>
+    <section className="my-projects-section">
+      <h2 className="projects-title">Projects</h2>
       <ul>{myProjects}</ul>
     </section>
   );

@@ -6,15 +6,26 @@
 
 .image-area {
   margin-top: 100px;
-  width: 75%;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .carousel.carousel-slider {
-  height: 300px;
+  height: 200px;
 }
 
 .carousel .slide img {
-  height: 300px;
+  height: 200px;
+}
+
+.project-info {
+  text-align: start;
+  margin: 16px 0;
+  padding: 0px 0px 0px 15px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
 }
