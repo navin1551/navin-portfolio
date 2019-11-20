@@ -5,14 +5,22 @@ export default function Contact() {
   return (
     <section>
       <footer id="contact-section" role="contentinfo">
-        <a href="mailto:navin1551@gmail.com" target="_blank">
+        <a
+          href="mailto:navin1551@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZ9uMIcl0N4OzFmhey9WALzfRtyBBEykxV_UXj7yBi-M6Nfqh1w"
             alt="email logo"
             className="contact-logo"
           />
         </a>
-        <a href="https://github.com/navin1551" target="_blank">
+        <a
+          href="https://github.com/navin1551"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="github logo"

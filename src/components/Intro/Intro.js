@@ -7,7 +7,7 @@ export default function Intro() {
       <header className="headline" role="banner">
         <h1>Hi, I'm Navin. I'm a fullstack developer based in Los Angeles</h1>
       </header>
-      <section id="bio-section" role="region">
+      <section id="bio-section">
         <p>
           I am a dedicated software developer and recent graduate of the Full
           Stack Software Development school at Thinkful. I also have a

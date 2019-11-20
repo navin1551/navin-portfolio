@@ -11,13 +11,13 @@ export default function Project(props) {
     <div className="image-area">
       <Carousel dynamicHeight>
         <div>
-          <img src={props.img1} className="thumbnail-pic" />
+          <img src={props.img1} className="thumbnail-pic" alt="img1" />
         </div>
         <div>
-          <img src={props.img2} className="thumbnail-pic" />
+          <img src={props.img2} className="thumbnail-pic" alt="img2" />
         </div>
         <div>
-          <img src={props.img3} className="thumbnail-pic" />
+          <img src={props.img3} className="thumbnail-pic" alt="img3" />
         </div>
       </Carousel>
       <ul className="project-info">
@@ -28,19 +28,19 @@ export default function Project(props) {
         <li> Technologies Implemented: {props.tech}</li>
         <br />
         <li>
-          <a href={props.client} target="_blank">
+          <a href={props.client} target="_blank" rel="noopener noreferrer">
             Client Repo
           </a>
         </li>
         <br />
         <li>
-          <a href={props.api} target="_blank">
+          <a href={props.api} target="_blank" rel="noopener noreferrer">
             API Repo
           </a>
         </li>
         <br />
         <li>
-          <a href={props.app} target="_blank">
+          <a href={props.app} target="_blank" rel="noopener noreferrer">
             Try App Here
           </a>
         </li>

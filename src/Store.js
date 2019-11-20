@@ -60,16 +60,7 @@ export default {
       id: 4,
       title: "Cocktail Critic",
       description:
-        "App that allows users to create a user name and\
-      password to login and search for popular alcoholic drinks and leave\
-      reviews and ratings. Users can choose to view a list of their own\
-      reviews in their profile page or can view other users reviews in the\
-      posted reviews page. I decided to build this app to showcase my\
-      ability implement a third part AJAX request into a full stack app\
-      that I created using React, Node/Express.js and PostgreSQL. I also\
-      thought it would be a fun idea as I'm sure everyone has ordered a\
-      drink they wanted to make sure they did or didn't order a second\
-      time.",
+        "App that allows users to create a user name and password to login and search for popular alcoholic drinks and leave reviews and ratings. Users can choose to view a list of their own reviews in their profile page or can view other users reviews in the posted reviews page. I decided to build this app to showcase my ability implement a third part AJAX request into a full stack app that I created using React, Node/Express.js and PostgreSQL. I also thought it would be a fun idea as I'm sure everyone has ordered a drink they wanted to make sure they did or didn't order a second time.",
       tech:
         "React, Node/Express, PostgreSQL, AJAX, HTML5, CSS3,Jest, Mocha/Chai testing, JWT auth, Zeit, Heroku, GitHub",
       img1: CocktailLandingPage,
