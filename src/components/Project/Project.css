@@ -1,0 +1,20 @@
+.thumbnail-pic {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.image-area {
+  margin-top: 100px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel.carousel-slider {
+  height: 300px;
+}
+
+.carousel .slide img {
+  height: 300px;
+}

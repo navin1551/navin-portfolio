@@ -1,0 +1,35 @@
+.headline h1 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+header {
+  padding: 100px 0;
+}
+
+.navin {
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 175px;
+  height: 175px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 25px;
+  opacity: 0.5;
+}
+
+#bio-section {
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#bio-section > p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
