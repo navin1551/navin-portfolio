@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <section id="intro-section">
       <header className="headline" role="banner">
-        <h1>Hi, I'm Navin, a fullstack developer based in Los Angeles</h1>
+        <h1>Hi, I'm Navin. I'm a fullstack developer based in Los Angeles</h1>
       </header>
       <section id="bio-section">
         <p>
