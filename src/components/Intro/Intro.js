@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <section id="intro-section">
       <header className="headline" role="banner">
-        <h1>Hi, I'm Navin. I'm a fullstack developer based in Los Angeles</h1>
+        <h1>Hi, I'm Navin. I'm a fullstack developer</h1>
       </header>
       <section id="bio-section">
         <p>
@@ -19,9 +19,9 @@ export default function Intro() {
         <p>
           My interests outside of coding include fitness, sports, the great
           outdoors, reading about new advances in artificial intelligence, and
-          enjoying the beautiful beaches of Southern California. I'm an avid
-          learner who is always looking to expand my knowledge of anything in
-          the tech and developer world!
+          enjoying the day at the beach with my dog. I'm an avid learner who is
+          always looking to expand my knowledge of anything in the tech and
+          developer world!
         </p>
       </section>
     </section>
