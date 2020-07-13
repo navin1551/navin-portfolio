@@ -23,7 +23,6 @@ export default {
       img2: SteelersQuestions,
       img3: SteelersBigBen,
       clientRepo: "https://github.com/navin1551/steelers-quiz-app",
-      apiRepo: "",
       app: "https://navin1551.github.io/steelers-quiz-app/"
     },
 
@@ -37,7 +36,6 @@ export default {
       img2: EducatorLevel,
       img3: EducatorResults,
       clientRepo: "https://github.com/navin1551/Educator-Locator",
-      apiRepo: "",
       app: "https://navin1551.github.io/Educator-Locator/"
     },
 

@@ -11,7 +11,7 @@ export default function Intro() {
 				<p>
 					I'm a dedicated developer with experience in the e-commerce and bio-tech world. I enjoy making
 					clients and servers play nicely and have a strong eye for detailed UI and clean code. I'm proficient
-					in building awesome apps with an expertise in the React and Node/Express stack as well as various
+					in building complex apps with an expertise in JavaScript and associated frameworks as well as various
 					testing frameworks.
 				</p>
 				<br />

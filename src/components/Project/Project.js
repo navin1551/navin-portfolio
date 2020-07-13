@@ -7,6 +7,8 @@ import "react-responsive-carousel/lib/styles/main.min.css";
 import "react-responsive-carousel/lib/styles/carousel.css";
 
 export default function Project(props) {
+  let apiRepo = props.api ? <a href={props.api} target="_blank" rel="noopener noreferrer">API Repo</a> : "";
+
   return (
     <div className="image-area">
       <Carousel dynamicHeight>
@@ -34,9 +36,7 @@ export default function Project(props) {
         </li>
         <br />
         <li>
-          <a href={props.api} target="_blank" rel="noopener noreferrer">
-            API Repo
-          </a>
+          {apiRepo}
         </li>
         <br />
         <li>
