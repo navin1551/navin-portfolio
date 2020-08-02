@@ -3,7 +3,7 @@ import './Title.css';
 
 export default class Title extends React.Component {
   state = {
-    title: ['fullstack developer', 'front end developer', 'tech geek', 'beach lover', 'dog owner', 'fitness enthusiast', 'foodie fanatic']
+    title: ['fullstack developer', 'front end developer', 'beach lover', 'tech geek', 'dog owner', 'master debugger', 'fitness enthusiast', 'visual artist', 'foodie fanatic', 'California native']
   };
 
   componentDidMount() {
