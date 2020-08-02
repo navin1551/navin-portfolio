@@ -1,0 +1,22 @@
+#skills-title {
+  font-size: 66px;
+}
+
+#skills-section {
+  margin-top: 260px;
+}
+
+#skill-list {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  #skills-section {
+    margin-top: 280px;
+  }
+
+  #skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -14,6 +14,11 @@
 .carousel.carousel-slider {
   height: 200px;
   border: 1px ridge lightblue;
+  box-shadow: 1px 4px 20px black;
+}
+
+.carousel .thumb {
+  box-shadow: 1px 4px 20px black;
 }
 
 .carousel .slide img {
@@ -26,10 +31,11 @@
   padding: 0px 0px 0px 15px;
   font-size: 15px;
   line-height: 19px;
+  color: black;
 }
 
 a {
-  color: lightblue;
+  color: maroon;
   text-decoration: none;
 }
 

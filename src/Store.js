@@ -68,5 +68,68 @@ export default {
       apiRepo: "https://github.com/navin1551/cocktail-critic-api",
       app: "https://cocktail-critic.now.sh/"
     }
+  ],
+
+  skills: [
+    {
+      id: 1,
+      name: 'HTML5',
+      icon: 'https://image.flaticon.com/icons/png/512/200/200701.png'
+    },
+    {
+      id: 2,
+      name: 'CSS3',
+      icon: 'https://image.flaticon.com/icons/svg/732/732007.svg'
+    },
+    {
+      id: 3,
+      name: 'JavaScript',
+      icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFgOmP-VhsCFa_9om9fI-SBqZ-0qa26FCasw&usqp=CAU'
+    },
+    {
+      id: 4,
+      name: 'React',
+      icon: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png'
+    },
+    {
+      id: 5,
+      name: 'jQuery',
+      icon: 'https://www.epicentrofestival.com/wp-content/uploads/2020/02/epicentrofestival-computer-icons-jquery-ninja-icon-h67xpmy2td.jpg'
+    },
+    {
+      id: 6,
+      name: 'Node',
+      icon: 'https://w0.pngwave.com/png/130/641/javascript-node-js-computer-icons-logo-application-software-javascript-icon-png-clip-art.png'
+    },
+    {
+      id: 7,
+      name: 'SQL',
+      icon: 'https://w0.pngwave.com/png/343/191/database-computer-icons-microsoft-sql-server-database-png-clip-art.png'
+    },
+    {
+      id: 8,
+      name: 'NoSQL',
+      icon: 'https://w0.pngwave.com/png/480/899/mongodb-inc-computer-icons-mongodb-icons-png-clip-art.png'
+    },
+    {
+      id: 9,
+      name: 'SASS',
+      icon: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/288_Sass_logo-512.png'
+    },
+    {
+      id: 10,
+      name: 'GitHub',
+      icon: 'https://www.flaticon.com/premium-icon/icons/svg/2175/2175377.svg'
+    },
+    {
+      id: 11,
+      name: 'AWS',
+      icon: 'https://findicons.com/files/icons/2779/simple_icons/1024/aws_1024_black.png'
+    },
+    {
+      id: 12,
+      name: 'TypeScript',
+      icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAAwMDCtra3q6uqenp6Wlpbg4OD09PQsLCw7Ozv5+fnl5eXw8PBJSUkgICDBwcERERFVVVW0tLSXl5eoqKjS0tLDw8Ovr6/Kysp9fX2KioqPj490dHQaGho1NTVkZGRmZmbZ2dlERER3d3dSUlIWFhbtwzl/AAAEN0lEQVR4nO2d7XqiMBBGjVUrqIgiFkUr6tr7v8Sl3e7WTD7pPrvO8LznZ0NCjikhmSQ6GAAAAAAAAAAAAAAAAAAAAAggS4YSSLJvGyZKBsm3DYePrnokQxjCkD0whCF/YAhD/sAQhvyBIQz5A0MY8geGMOQPDGHIHxjCkD8whCF/YAhD/sAQhvyBIQz5A0MY8geGMOQPDGHIHxjCkD8whCF/YAhD/sAQhvyBIQz5A0MY8geGMOQPDGHIHxgyNVyl2XqdRX1xxX8zLKuneKqNp8aHfPRVi0txXDIxnHUqfO6q7uTZvPiyX3EwnHYq/NlaxrJwfE4LX5sLMjx4MizW8g1fL/4spXTDbBHKs5NteI3oqbaSDVdRXbG1FYUYWt4RNmzPogzDcWy+s1DDU3S+mVDDIj7ji0jDZYeM5pMoYVxqGctMd+WkzI0xwNwysnnQ3IK26Lb0zC3MjrT+TDnp/79j240fND8ckcI8I2el6J1Hd/Ol69dnNb9aczMxtH76nzT0zul9arIIFCHAkD6GT3py+vHHeebKLsCwJNemJP2HP78AQ/o2NC7YuhtQhmEeMvQHpAQYBtvQjwDDilzr+5eUaUgnFlXvDI1BG+1MxRuu6Z1Hrz0zNEZtg1nTM0NLCKMIhPKFGdpiGLMnXw5pho46FnE9jgRDtXNUYXvui2HjrMR84lt2kmPobMSWWcVl/fCvDJfeKE9+km+ojv665J5OR4hhMOrtfnlIMTRm+pTpUbpheO1iZ+9W5RiqfahG9pVuQYbqOg/VaS/cUKlNqFIH6YZq+BKoVW1mkWWo1G3rr9ZZvKFSmWcM1741aABAoKFSSeUZxdE1UpGGSq1q996FWy8MW86uB5Jsq5FrqNSJxvs/0dcRJRu2D6R1D4O+li/bUKnU0rHqm1OlGypVGzWbaTNi+YZmTHxw7pnhxyKwhjZ064OhERTXJvy9MKQzR20XphzDycWZlJLStHe+FMNjm2PiSqQ/NSrQMP01Qrs5kqmEPMPfK/mLN3t6Q0qT9hzWX1Ml+0ETRSf+2rCNvWGjvQoutla80qppASnmhks67FyYe01ejZMY2iI4b0NzQDYYVKQZG2O+P9VCw7wNlS1COivuIr+NZW6hT4GZGzb2ey+25aGuD+XWelRIjwszNzS27UVATiRwN1TBA10GZEc1e8POP28/JQWwNwwt/xrQdUT+huFVNY2CZhdg2EnRPIMowVCdow/cWAauIgzVMPL8oe2IpQzDyBOI1pM3UgxVGnz3X+wbwMUYtm9G7/rvs/zdJi1vE5rvN7nzCwdkGb7Xt85H+tG+6bx0NZ9Iw3eS9bEeV/lLUY33x5sjdvMHiYbdgOE/MqRzov4Z1pvJPZsuByg6IvR7ojoAQxjyB4Yw5M/3DaO+0o8BdIE4niwZSiDpHHAFAAAAAAAAAAAAAAAAAAB4BD8BuG5+Gd7ei9UAAAAASUVORK5CYII='
+    }
   ]
 };

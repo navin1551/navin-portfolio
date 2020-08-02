@@ -3,7 +3,6 @@
 }
 
 html {
-  background-image: url(https://www.econcepts.ie/wp-content/uploads/2016/04/bp_background_2_blue1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,7 +14,6 @@ body {
   padding: 0;
   border: 0;
   text-align: center;
-  color: white;
   font-family: "Nanum Gothic", sans-serif;
   font-weight: bold;
 }

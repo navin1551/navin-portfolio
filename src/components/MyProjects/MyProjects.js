@@ -18,8 +18,8 @@ export default function MyProjects(props) {
     />
   ));
   return (
-    <section className="my-projects-section" id="portfolio-section">
-      <h2 className="projects-title">Projects</h2>
+    <section id="projects-section">
+      <h1 className="projects-title">Projects</h1>
       <div>{myProjects}</div>
     </section>
   );

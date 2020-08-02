@@ -1,20 +1,20 @@
-.my-projects-section {
-  margin-top: 250px;
+#projects-section {
+  margin-top: 200px;
 }
 
 .projects-title {
-  font-size: 40px;
+  font-size: 66px;
   margin-bottom: 100px;
   border-top: none;
-  font-family: "KoHo", sans-serif;
+  color: black;
 }
 
 @media screen and (min-width: 768px) {
-  .my-projects-section {
-    margin-top: 300px;
+  #projects-section {
+    margin-top: 240px;
   }
   .projects-title {
-    font-size: 45px;
+    font-size: 66px;
   }
 }
 
@@ -23,7 +23,7 @@
     font-size: 48px;
   }
 
-  .my-projects-section {
+  #projects-section {
     margin-top: 400px;
   }
 }
