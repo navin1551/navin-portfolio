@@ -9,7 +9,7 @@ const Skill = (props) => {
   }, []);
 
   return (
-    <div className='skill-section' data-aos="fade-left">
+    <div className='skill-section' data-aos="fade-up">
       <img src={props.icon} alt='skill icons' className="icon-images" />
       <h3 id="skill-name">{props.name}</h3>
     </div>
