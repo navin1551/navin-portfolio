@@ -12,6 +12,18 @@ import CocktailReviews from "./assets/cocktail-critic/cocktail-reviews.jpeg";
 import CocktailSearch from "./assets/cocktail-critic/cocktail-search.jpeg";
 
 export default {
+  titleCarousel: [
+    'fullstack developer',
+    'front end developer',
+    'beach lover',
+    'tech geek',
+    'dog owner',
+    'master debugger',
+    'fitness enthusiast',
+    'visual artist',
+    'foodie fanatic',
+    'California native'
+  ],
   projects: [
     {
       id: 1,

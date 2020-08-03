@@ -11,7 +11,7 @@ import "./App.css";
 export default class App extends React.Component {
   state = {
     skills: Store.skills,
-    projects: Store.projects
+    projects: Store.projects,
   };
 
   render() {
