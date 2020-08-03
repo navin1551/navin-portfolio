@@ -15,15 +15,16 @@ export default {
   titleCarousel: [
     'fullstack developer',
     'front end developer',
-    'beach lover',
-    'tech geek',
-    'dog owner',
     'master debugger',
-    'fitness enthusiast',
+    'tech geek',
     'visual artist',
+    'beach lover',
+    'dog owner',
+    'fitness enthusiast',
     'foodie fanatic',
     'California native'
   ],
+
   projects: [
     {
       id: 1,

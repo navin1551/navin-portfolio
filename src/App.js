@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro";
 import Skills from './components/Skills/Skills';
 import MyProjects from "./components/MyProjects/MyProjects";
 import Contact from "./components/Contact/Contact";
+import FadeInSection from './HOC/FadeInSection';
 import Store from "./Store";
 import "./App.css";
 

@@ -1,7 +1,6 @@
 .icon-images {
   height: 100px;
   width: 100px;
-  /* box-shadow: 1px 4px 20px black; */
 }
 
 #skill-name {
@@ -10,4 +9,18 @@
 
 .skill-section {
   margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-images {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .icon-images {
+    height: 100px;
+    width: 100px;
+  }
 }
