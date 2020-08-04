@@ -123,7 +123,7 @@ export default {
     {
       id: 8,
       name: 'SQL',
-      icon: 'https://p7.hiclipart.com/preview/254/705/126/microsoft-sql-server-database-server-computer-icons-table.jpg'
+      icon: 'https://w7.pngwing.com/pngs/897/968/png-transparent-computer-icons-database-computer-data-storage-others.png'
     },
     {
       id: 9,
@@ -143,7 +143,7 @@ export default {
     {
       id: 12,
       name: 'AWS',
-      icon: 'https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png'
+      icon: 'https://cdn.worldvectorlogo.com/logos/amazon-icon.svg'
     },
   ]
 };
