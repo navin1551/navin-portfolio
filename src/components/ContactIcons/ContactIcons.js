@@ -27,7 +27,11 @@ export default function ContactIcons() {
             className="contact-logo"
           />
         </a>
-        <a href="www.linkedin.com/in/navin-kumar-aaa6b8a0" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/navin1551/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4FAjWDx92wneT18pRKkts_Ck3ru9WnF3-ptCGD-nvOn4MepJX4g"
             alt="linkedin logo"
