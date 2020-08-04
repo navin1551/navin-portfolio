@@ -123,7 +123,7 @@ export default {
     {
       id: 8,
       name: 'SQL',
-      icon: 'https://w7.pngwing.com/pngs/897/968/png-transparent-computer-icons-database-computer-data-storage-others.png'
+      icon: 'https://icon-library.com/images/storage-icon/storage-icon-8.jpg'
     },
     {
       id: 9,
