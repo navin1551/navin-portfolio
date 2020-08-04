@@ -20,3 +20,17 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  #skills-title {
+    font-size: 140px;
+  }
+
+  #skills-section {
+    margin-top: 550px;
+  }
+
+  #skill-list {
+    margin-top: 180px;
+  }
+}

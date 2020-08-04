@@ -2,6 +2,7 @@
   color: white;
   background-image: url(https://www.econcepts.ie/wp-content/uploads/2016/04/bp_background_2_blue1.jpg);
   height: 676px;
+  /* max-width: 100%; */
   box-shadow: 1px 4px 20px black;
   background-attachment: fixed;
   background-position: center center;
@@ -21,7 +22,7 @@
 }
 
 #title-h2 {
-  margin-top: 20px;
+  margin-top: 30px;
   border-top: none;
   font-size: 26px;
   line-height: 34px;
@@ -31,8 +32,7 @@
 
 #title-carousel {
   text-shadow: 2px 2px 4px #E74C3C;
-  /* border-bottom: 1px solid #179BF6; */
-  /* text-decoration: underline; */
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,7 +69,7 @@
   }
 
   #title-section {
-    height: 500px;
+    height: 800px;
   }
 }
 
@@ -92,11 +92,24 @@
   }
 }
 
-/* @media screen and (min-width: 2560px){
+@media screen and (min-width: 2560px){
   #title-section {
-    height: 800px;
+    height: 1700px;
   }
-} */
+
+  #title-text-section {
+    padding-top: 500px;
+  }
+
+  #title-h1 {
+    font-size: 160px;
+  }
+
+  #title-h2 {
+    font-size: 90px;
+    margin-top: 70px;
+  }
+}
 
 
 

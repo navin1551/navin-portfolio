@@ -17,11 +17,12 @@ export default {
     'front end developer',
     'master debugger',
     'tech geek',
+    'JavaScript fanatic',
     'visual artist',
     'beach lover',
+    'martial artist',
     'dog owner',
     'fitness enthusiast',
-    'foodie fanatic',
     'California native'
   ],
 

@@ -24,3 +24,10 @@
     width: 100px;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  .icon-images {
+    height: 170px;
+    width: 170px;
+  }
+}

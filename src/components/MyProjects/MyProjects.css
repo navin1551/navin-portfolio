@@ -13,9 +13,6 @@
   #projects-section {
     margin-top: 240px;
   }
-  .projects-title {
-    font-size: 66px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -24,5 +21,11 @@
   }
   .projects-title {
     margin-bottom: 140px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .projects-title {
+    font-size: 140px;
   }
 }

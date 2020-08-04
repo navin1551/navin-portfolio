@@ -137,3 +137,24 @@ header {
     margin-top: 240px;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  #profile-pic {
+    height: 640px;
+    width: 640px;
+  }
+
+  #bio-info-section {
+    font-size: 36px;
+    width: 750px;
+    line-height: 44px;
+  }
+
+  #bio-title {
+    font-size: 140px;
+  }
+
+  .bio-pic-info-section {
+    margin-top: 180px;
+  }
+}
